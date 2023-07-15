@@ -11,8 +11,13 @@
 	<groupId>com.example</groupId>
 	<artifactId>Wallet-Service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>Wallet-Service</name>
 	<description>Demo project for Spring Boot</description>
+	<modules>
+		<module>wallet-service</module>
+		<module>user-service</module>
+	</modules>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
